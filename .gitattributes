@@ -1,0 +1,99 @@
+/*@media screen and (max-width:767px){
+    section:nth-of-type(1){padding: 60px 0; max-width: calc(100% - 40px); margin: 0 auto;}
+    section:nth-of-type(1) h2{display: none;}
+    section:nth-of-type(1) li{text-align: center;}
+    section:nth-of-type(1) li:not(:last-child){margin-bottom: 30px;}
+    section:nth-of-type(1) li img{margin-bottom: 30px;}
+    section:nth-of-type(1) li strong{display: block; font-family: 'Raleway'; font-size: 22px; font-weight: 600; margin-bottom: 25px;}
+    section:nth-of-type(1) li p{font-family: 'Roboto'; font-size: 16px; font-weight: 400; line-height: 26px;}
+
+    section:nth-of-type(2){background-image: url('../images/lazy-morning-programming-in-a-bed-picjumbo-com.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; height: 30%;}
+    section:nth-of-type(2) div:first-of-type{margin-bottom: 30px;}
+    section:nth-of-type(2) div:first-of-type h2{font-family: 'Raleway'; font-size: 22px; font-weight: 600; margin-bottom: 20px;}
+    section:nth-of-type(2) div:first-of-type p{width: 1;}
+    section:nth-of-type(2) div:first-of-type form::after{content: ''; display: block; visibility: hidden; clear: both;}
+    section:nth-of-type(2) div:first-of-type form input{float: left; height: 55px;}
+    section:nth-of-type(2) div:first-of-type form input[type="email"]{width: 56%; font-family: 'Roboto'; min-width: 200px; font-size: 18px; color: #848484; padding-left: 4.6%; box-sizing: border-box; border: 1px solid #c8c8c8; border-radius: 10px 0 0 10px;}
+    section:nth-of-type(2) div:first-of-type form input[type="email"]::placeholder{color: #848484;}
+    section:nth-of-type(2) div:first-of-type form input[type="submit"]{width: 26%; min-width: 90px; font-family: 'Raleway'; font-size: 22px; font-weight: bold; color: white; background-color: #2ecc71; border: none; border-radius: 0 10px 10px 0;}
+    section:nth-of-type(2) div:last-of-type img{width: 100%;}
+}
+(모바일)
+@media screen and (min-width:768px) and (max-width:1279px){
+    section:nth-of-type(1){display: flex; justify-content: left; padding: 70px;}    
+    section:nth-of-type(1) h2{font-size: 50px; margin-right: 20px;}
+    section:nth-of-type(1) ul::after{content: ''; display: block; visibility: hidden; clear: both;}
+    section:nth-of-type(1) li{float: left; width: 70%; text-align: left;}
+    section:nth-of-type(1) li:not(:nth-of-type(6)){margin-bottom: 30px;}
+    section:nth-of-type(1) li:not(:last-child){margin-right: 8%;}
+    section:nth-of-type(1) li p{font-family: 'Source+Code+Pro'; font-weight: 600;}
+    section:nth-of-type(1) ul:last-of-type::after{content: ''; display: block; visibility: hidden; clear: both;}
+    section:nth-of-type(1) ul:last-of-type{float: right;}
+    section:nth-of-type(1) ul:last-of-type li{font-size: 20px;}
+    section:nth-of-type(1) ul:last-of-type li:not(:nth-of-type(6)){margin: 1px 0 50px 0;}
+    section:nth-of-type(1) li strong{display: block; font-family: 'Raleway'; font-size: 22px; font-weight: 600; margin-bottom: 25px;}
+    section:nth-of-type(1) li p{font-family: 'Roboto'; font-size: 16px; font-weight: 400; line-height: 26px;}
+
+    section:nth-of-type(2){background-image: url('../images/lazy-morning-programming-in-a-bed-picjumbo-com.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; opacity: 0.7;}
+    section:nth-of-type(2) div:first-of-type{margin-bottom: 30px;}
+    section:nth-of-type(2) div:first-of-type h2{font-family: 'Raleway'; font-size: 22px; font-weight: 600; margin-bottom: 0px;}
+    section:nth-of-type(2) div:first-of-type p{font-family: 'Source+Code+Pro'; font-size: 16px; font-weight: 400; line-height: 26px; color: #848484; margin-bottom: 25px;}
+    section:nth-of-type(2) div:first-of-type form::after{content: ''; display: block; visibility: hidden; clear: both;}
+    section:nth-of-type(2) div:first-of-type form input{float: left; height: 55px;}
+    section:nth-of-type(2) div:first-of-type form input[type="email"]{width: 56%; font-family: 'Roboto'; min-width: 200px; font-size: 18px; color: #848484; padding-left: 4.6%; box-sizing: border-box; border: 1px solid #c8c8c8; border-radius: 10px 0 0 10px;}
+    section:nth-of-type(2) div:first-of-type form input[type="email"]::placeholder{color: #848484;}
+    section:nth-of-type(2) div:first-of-type form input[type="submit"]{width: 26%; min-width: 90px; font-family: 'Raleway'; font-size: 22px; font-weight: bold; color: white; background-color: #2ecc71; border: none; border-radius: 0 10px 10px 0;}
+    section:nth-of-type(2) div:last-of-type img{width: 100%;}
+}*/
+
+/* 테블릿 */
+@media screen and (min-width:1290px){
+    section:nth-of-type(1){ justify-content: left; padding: 50px;}
+    section:nth-of-type(1) h2{display: flex; padding: 20px; font-size: 35px; text-align: center;}
+    section:nth-of-type(1) ul{margin: 40px 0px 0 0;  display: inline-block; width: 35%;}
+    section:nth-of-type(1) ul::after{content: ''; display: block; visibility: hidden; clear: both;}
+    section:nth-of-type(1) li{float: left; width: 55%; text-align: left;}
+    section:nth-of-type(1) ul:first-of-type li:not(:nth-of-type(6)){margin-bottom: 30px;}
+    section:nth-of-type(1) ul:first-of-type li:not(:last-child){margin-right: 5%;}
+    section:nth-of-type(1) ul:first-of-type li p{font-family: 'Source+Code+Pro'; font-weight: 600;}
+    /* section:nth-of-type(1) ul:first-of-type li div{opacity: 0; transform: translateX(0px); transition: 1s; transition-property: opacity transform;} */
+    /* section:nth-of-type(1) ul:first-of-type li div.active span{opacity: 1; transform: translateX(0px);} */
+    section:nth-of-type(1) ul:last-of-type::after{content: ''; display: block; visibility: hidden; clear: both;}
+    section:nth-of-type(1) ul:last-of-type{float: right; width: 10%;}
+    section:nth-of-type(1) ul:last-of-type li{font-size: 20px;}
+    section:nth-of-type(1) ul:last-of-type li:not(:nth-of-type(6)){margin: 1px 0px 50px 0px;}
+    /* 첫번째 section fin */
+    /* 두번째 section */
+    section:nth-of-type(2){height: 1500px; position: relative;}
+    section:nth-of-type(2)::before{content: ""; background-image: url('../images/free-dark-wood-texture-picjumbo-com.jpg'); background-size: cover; opacity: 1; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-repeat: no-repeat;background-position: center;}
+    section:nth-of-type(2) div h2{font-size: 35px; padding-top: 20px;   position: relative; color: white; text-align: center;}
+    section:nth-of-type(2) div ul div{width: 10px; height: 1000px; background-color: green;  position: absolute; left: 50%; top: 10%;}
+    section:nth-of-type(2) div ul li{width: 300px; height: 50px;}
+    section:nth-of-type(2) div ul li > br{font-size: 20px;}
+    section:nth-of-type(2) div ul li:nth-of-type(1){position: absolute; right: 20%; top: 200px; font-size: 30px; font-weight: bold; color: white; text-align: right;}
+    section:nth-of-type(2) div ul li:nth-of-type(2){position: absolute; left: 20%; top: 400px; font-size: 30px; font-weight: bold; color: white;}
+    section:nth-of-type(2) div ul li:nth-of-type(3){position: absolute; right: 20%; top: 600px; font-size: 30px; font-weight: bold; color: white; text-align: right;}
+    section:nth-of-type(2) div ul li:nth-of-type(4){position: absolute; left: 20%; top: 800px; font-size: 30px; font-weight: bold; color: white;}
+    section:nth-of-type(2) div ul li:nth-of-type(5){position: absolute; right: 20%; top: 900px; font-size: 30px; font-weight: bold; color: white; text-align: right;}
+    /* 두번째 section fin */
+    /* 세번째 section */
+    section:nth-of-type(3){height: 700px; background-color: skyblue;}
+    section:nth-of-type(3) div h2{font-size: 30px; color: black; text-align: center; padding: 20px;}
+    section:nth-of-type(3) div .pp{position: relative; top: 100px; left: 33%; display: block;}
+    section:nth-of-type(3) div .pp li{position: absolute;}
+    section:nth-of-type(3) div .pp li a img{width: 200px; height: 150px; border-radius: 10%;}
+    section:nth-of-type(3) div .pp li a img:hover{width: 250px; height: 200px; animation: 1s; }
+    section:nth-of-type(3) div .pp li a img:nth-of-type(1){margin-right: 100px;}
+    /* 세번째 section fin */
+    /* 네번째 section */
+    section:nth-of-type(4){height: 600px; position: relative;}
+    section:nth-of-type(4) h2{position: relative; font-size: 30px; color: black; text-align: center; top: 30px; font-weight: 900;}
+    section:nth-of-type(4) div:nth-of-type(1){width: 300px; margin-left: 20%; display: inline-block;}
+    section:nth-of-type(4) div:nth-of-type(1) p{text-align: left; top: 100px; position: relative; width: 200px; height: 30px; line-height: 30px; border: 2px solid black; border-radius: 10px; }
+    section:nth-of-type(4) div:nth-of-type(1) p:nth-of-type(3){height: 60px;}
+    section:nth-of-type(4) div:nth-of-type(2){position: absolute; right: 10%; color: black; display: inline-block; margin-top: 30px; width: 500px;}
+    section:nth-of-type(4) div:nth-of-type(2) h2{font-size: 23px; line-height: 100px;}
+    section:nth-of-type(4) div:nth-of-type(2) ul{justify-content: right; display: flex; flex-direction: row; flex-wrap: wrap; align-items: center;}
+    section:nth-of-type(4) div:nth-of-type(2) p{line-height: 50px; font-weight: bold;}
+    section:nth-of-type(4) div:nth-of-type(2) li > textarea{float: left;}
+}
