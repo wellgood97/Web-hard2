@@ -1,0 +1,75 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{height: 500%; width: 100%; color: white; overflow-x: hidden;}
+
+.navBar{position: fixed; height: 5vh; background-color: #BD8F4D; border-bottom:6px solid silver; z-index: 10; width: 100%;}
+.navBar ul{display: flex; flex-direction: row; justify-content: flex-end; align-items: center; line-height: 5vh; font-weight: 700; width: 100%;}
+.navBar ul li{position: absolute; left: 0; left: 3%;}
+.navBar ul li a{font-size: 32px; }
+.navBar ul a{margin:0 50px 0 40px; right: 0; text-decoration-line: none; color: #191919; font-size: 24px; font-family: 'Abril Fatface', cursive;}
+.navBar ul a:last-of-type{margin: 0 50px 0 0;}
+.navBar ul :hover{text-shadow: 0 0 1px #fff, 0 0 3px turquoise , 0 0 7px turquoise; color: white;}
+
+.headline{width: 100%; height: 100vh; position: relative; background-color: #191919;}
+.headline::before{content: ''; top: 5vh; left: 0; right: 0; bottom: 0; opacity: .3; position: absolute; background: #000;}
+.headline .text{display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.headline .text h1{margin-bottom: 20px; font-family: 'Gowun Batang', serif; font-size: 40px; font-weight: 700; display: inline-block; overflow: hidden; text-align: center; color: #BD8F4D; margin-top: 400px; z-index: 1; transition: 2s;}
+.headline .text h1::after{position: absolute; display: block; content: ""; width: 40px; height: 40px; top: 3px; right: 0; border-right: 1px solid #000; animation: cursor 0.5s step-end infinite;}
+.headline .text h1{animation: typing 5s steps(32,end) 1;}
+
+@keyframes cursor{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.info{display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh; background: #BD8F4D;}
+.info h2{font-size: 40px; color: black; font-weight: 900; margin-bottom: 80px; font-family: 'Abril Fatface', cursive;}
+.info .intro{display: flex; flex-direction: row;}
+.info  img{width: 220px; height: 230px;  border-radius: 10%;}
+.info .intro .information{margin: 10px 0 0 10px;}
+.info .intro .information li{display: none;}
+.info .intro .information li h2{font-size: 16px; margin-bottom: 5px;}
+.info .intro .information li p{color: #000; margin-bottom: 10px; font-weight: 700; font-family: 'Gowun Batang', serif; border: 3px solid white;}
+.info .intro .introduction{color: black; margin: 10px 0 0 30px; width: 500px; height: 100px; line-height: 30px;}
+.info .intro .introduction li a{text-decoration-line: none; font-size: 8px;}
+.info .intro .introduction li img{width: 30px; height: 30px; border: 2px solid black; border-radius: 50%; display: flex; margin-top: 30px;}
+
+.skill{position: relative; display: flex; align-items: center; justify-content: center; flex-direction: column; width: 100%;  height: 100vh; background: #191919;}
+.skill::before{content: '';top: 0; left: 0; right: 0; bottom: 0; opacity: .7; position: absolute; background: #000;}
+.skill h2{font-size: 32px; z-index: 1; font-weight: 900; font-family: 'Abril Fatface', cursive; color: #BD8F4D;}
+.skill h2:active{}
+.skill .clicks{position: absolute; width: 100%; display: flex; justify-content: center; opacity: 0; padding: 0 100px;  z-index: 1;}
+.skill .clickEvent {color: #BD8F4D; font-size: 3em; opacity: 1;}
+
+.pjc{display: flex; align-items: center; justify-content: center; flex-direction: column; position: relative; height: 100vh; background-color: #BD8F4D;}
+.pjc h2{font-size: 30px; font-weight: 900; margin-bottom: 80px; z-index: 1; color: #191919; margin-top: 100px; font-family: 'Gowun Batang', serif; }
+.pjc div{flex-direction: row; display:flex; align-items: center; margin-top: 15px; margin-left: 10%; border-radius: 3%; box-sizing: border-box; z-index: 1;}
+.pjc div .img1{width: 200px; max-height: 200px;  overflow: hidden; margin-right: 50px; display: inline-block; top: 50px; }
+.pjc div .img1 img{width: 100%; transition: 5s linear;}
+.pjc div .img1 img:hover{transform: translateY(calc(-100% + 10px));}
+.pjc div .img2{width: 200px; max-height: 200px; overflow: hidden; margin-left: 50px;  display: inline-block; top: 50px;}
+.pjc div .img2 img{width: 100%; transition: 5s linear;}
+.pjc div .img2 img:hover{transform: translateY(calc(-100% + 10px));}
+
+.ifm{display: flex; justify-content: center; align-items: top; flex-direction: row; position: relative; height: 100vh;  width: 100%; background-image: url(../image/man-standing-stone-hooker-valley-track-with-view-mount-cook-new-zealand.jpg); background-position: center; overflow: hidden;}
+.ifm::before{content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;}
+.my{display: flex;flex-direction: column; align-items: center; width: 50%; justify-content: center;}
+.my{flex-direction: column;}
+.my iframe{position: absolute;}
+.my ul{flex-direction: row; margin-left: 15px; margin-top: 450px; width: 300px;}
+.my a img{width: 40px; height: 40px; margin-right: 20px; border-radius: 12px; background-color: white; position: relative;}
+.my a img:not(:nth-of-type(4)){margin-right: none;}
+.my div li{font-size: 20px; font-weight: bold; line-height: 10px;}
+.my div img{width: 70px; height: 70px;}
+.my div p{width: 50px; line-height: 15px;}
+.msg{width: 50%; line-height: 35px; display: flex; justify-content: center; align-items: flex-start; flex-direction: column; position: relative; left: 150px;}
+.msg h1{font-size: 30px; margin-bottom: 20px; font-family:  'Abril Fatface', cursive;}
+.msg li{font-family: 'Gowun Batang', serif; font-weight: 700;}
+.msg input[type="text"]{width: 50%; height: 30px; background: tan; border: 1px solid black;}
+.msg input[type="text"]:nth-of-type(3){width: 50%; height: 80px; margin-top: 20px;}
+.msg input[type="email"]{width: 50%; height: 30px; background: tan; border: 1px solid black;}
+.msg input[type="email"]{width: 50%; height: 30px;}
+.msg button{width: 150px; height: 40px; background-color: tan; margin-top: 40px; color: white; border-radius: 3%; margin-left: 10px; }
+
+.footer{width: 100%; height: 5vh; background: black;}
+.footer .copylight{color: white; text-align: center; line-height: 5vh;}
