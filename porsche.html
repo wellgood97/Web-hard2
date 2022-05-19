@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="porsche.css">
+    <link rel="stylesheet" href="porsche.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="page.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+    <title>Porsche</title>
+</head>
+<body>
+    <header>
+        <li style="text-align: center;"><a href="#"><img src="image/porsche-marque-trademark.medium.min.5c6af9aa7946fea34f60c8f8c95d0188@1x.webp" alt=""></a></li>
+        <div class="cars">
+            <menubar-button-718>
+                <a href="#"><img src="image/718.jpg" alt="718">718</button></a>
+            </menubar-button-718>
+            <menubar-button-911>
+                <a href="#"><img src="image/911.jpg" alt="911">911</button></a>
+            </menubar-button-911>
+            <menubar-button-cayenne>
+                <a href="#"><img src="image/cayenne.jpg" alt="cayenne">카이얀</button></a>
+            </menubar-button-cayenne>
+            <menubar-button-marcan>
+                <a href="#"><img src="image/macan.jpg" alt="marcan">마칸</button></a>
+            </menubar-button-marcan>
+            <menubar-button-panamera>
+                <a href="#"><img src="image/panamera.jpg" alt="panamera">파나메라</button></a>
+            </menubar-button-panamera>
+            <menubar-button-taycan>
+                <a href="#"><img src="image/taycan.jpg" alt="taycan">타이칸</button></a>
+            </menubar-button-taycan>
+            <ul class="icon">
+                <div><a href="#"><img src="image/icons8-shopping-bag-32.png" alt="" style="width: 24px;">Shop</a></div>
+                <li><a href="#"><img src="image/icons8-location-pin-32.png" alt="" style="width: 24px;">포르쉐 센터 찾기</a>
+                <a href="#"><img src="image/user.png" alt="" style="width: 24px;">My Porsche</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="bxPorsche">
+        <div class="slider">
+            <img src="image/porsche-normal (1).webp" alt="">
+            <img src="image/porsche-normal (2).webp" alt="">
+            <img src="image/porsche-normal (3).webp" alt="">
+            <img src="image/porsche-normal (4).webp" alt="">
+        </div>
+    </section>
+</body>
+</html>
+
+<script>
+        $(document).ready(function(){
+            $('.slider').bxSlider();
+    });
+</script>
