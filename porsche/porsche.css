@@ -1,0 +1,18 @@
+*{padding: 0;margin: 0; width: 100%; height: auto;}
+
+@media only screen and (min-width: 63.9375em){
+header{display: flex; flex-direction: row; height: 7.8125rem; color: rgb(0, 0, 0); box-sizing: content-box; margin: 0px 5vw; z-index: 22;}
+header li{display: flex; background: #fff; box-sizing: border-box; border-top: 0; width: 8.3125rem; height: 8.3125rem; padding: 1.75rem 0.25rem 1.175rem 0.25rem; border: 0.0625rem solid #e3e4e5; display: inline-block;margin-bottom: -9375rem; margin-left: calc(-0.75rem - 0.25rem - 0.0625rem);}
+header .cars{display: flex; flex-direction: row; height: 3.1825rem;  color: rgb(0, 0, 0); box-sizing: content-box; margin: 0vh 7vw;}
+menubar-button-718{text-align: center; text-decoration: none; color: #000; margin-right: 20px; margin-top: 20px;}
+menubar-button-911{text-align: center; text-decoration: none; color: #000; margin-right: 20px; margin-top: 20px;}
+menubar-button-cayenne{text-align: center; text-decoration: none; color: #000; margin-right: 20px; margin-top: 20px;}
+menubar-button-marcan{text-align: center; text-decoration: none; color: #000; margin-right: 20px; margin-top: 20px;}
+menubar-button-panamera{text-align: center; text-decoration: none; color: #000; margin-right: 20px; margin-top: 20px;}
+menubar-button-taycan{text-align: center; text-decoration: none; color: #000; margin-right: 20px; margin-top: 20px;}
+menubar-button-718,menubar-button-911,menubar-button-cayenne,menubar-button-marcan,menubar-button-panamera,menubar-button-taycan{width: 8.3125rem;}
+header .icon div{padding: 1.3125rem 0.5625rem 0 0.5625rem; box-sizing: border-box; height: 100%;}
+header .icon{display: flex; flex-direction: column;  padding-bottom: 1.25rem;}
+
+section .bxPorsche{width: 1380px; height: auto; }
+}
