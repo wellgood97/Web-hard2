@@ -1,6 +1,6 @@
 # Web-hard2
 
-<modifying>main code = DashBoard PortPolio(folder)</modifying>
+{modifying}main code = DashBoard PortPolio(folder){/modifying}
 
 
 popol
