@@ -1,0 +1,33 @@
+*{padding: 0; margin: 0; list-style: none; text-decoration: none; color: inherit;}
+html{font-size: 20px;}
+body{width: 100vw; height: 100VH; overflow: hidden; display: flex; flex-direction: row;}
+
+.layoutside .logo{padding: 30px 0px 30px 0px; text-align: center;}
+
+aside{width: 20vw; height: 100vh; overflow: none; position: fixed;}
+aside .sideBar{width: 20vw; height: 100vh; background-color: #0063B2;}
+aside .logo{width: 20vw; height: 80px; color: black;}
+aside .logo .h2{margin-top: 50px;}
+aside .logo .h2:hover{color: aliceblue;}
+aside .sidelayout{width: 20vw; height: 100%;}
+aside .sidelayout .Introduce{padding: 30px 0px 30px 0px; text-align: center; font-size: 20px;;}
+aside .sidelayout .Ability{padding: 30px 0px 30px 0px; text-align: center; font-size: 20px;}
+aside .sidelayout .Skill{padding: 30px 0px 30px 0px; text-align: center; font-size: 20px;}
+aside .sidelayout .Information{padding: 30px 0px 30px 0px; text-align: center; font-size: 20px;}
+aside .sidelayout li:nth-of-type(n):hover{color: #fff; width: 100%; background: #9CC3D5;}
+aside .sidelayout li:nth-of-type(n):focus{background: #9CC3D5;}
+
+main{width: 80vw; height: 100vh; }
+main div{width: 80vw; height: 100vh;}
+
+main .main{align-items: center;}
+main .main h1{font-size: 3vw;}
+
+main .MainInformation{padding-left: 40vh;}
+main .MainInformation img{padding: 13vw 15vh 15vw 15vh; width: 50vw; height: 50vh; border-radius: 150vw 100vh;}
+main .MainInformation{text-align: center; display: flex; flex-direction: row; border-bottom: 1px solid black;}
+main .MainInformation li h1{padding-right: 10vw; margin-bottom: 3vw;}
+main .MainInformation li{display: flex; flex-direction: column; padding-top: 10vw}
+main .MainInformation li p{padding-right: 11vw; align-items: center; text-align: left; line-height: 3vw;}
+
+main .Tap-2{}
